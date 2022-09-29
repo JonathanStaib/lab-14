@@ -25,6 +25,7 @@ function clearCart() {}
 function showCart() {
 
   // TODO: Find the table body
+
   let table = document.getElementById('cart');
 
   // TODO: Iterate over the items in the cart
@@ -52,7 +53,6 @@ function showCart() {
     table.appendChild(trElem);
   }
   
-
 }
 
 function removeItemFromCart(event) {
