@@ -31,17 +31,17 @@ function showCart() {
   // TODO: Create a TR
   // TODO: Create a TD for the delete link, quantity,  and the item
   // TODO: Add the TR to the TBODY and each of the TD's to the TR
-  for (let i = 0; i < cartItems.length; i++) {
+  for (let i = 0; i < cart.length; i++) {
     let trElem = document.createElement('tr');
     let tdDeleteLink = document.createElement('td');
     let delButton = document.createElement('button');
 
     let tdQuantity = document.createElement('td');
-    tdQuantity.textContent = cartItems[i].quantity;
+    tdQuantity.textContent = cart[i].quantity;
     trElem.appendChild(tdQuantity);
 
     let tdItem = document.createElement('td');
-    tdItem.textContent = cartItems[i].item;
+    tdItem.textContent = cart[i].item;
     trElem.appendChild('tr');
     table.appendChild(trElem);
 
