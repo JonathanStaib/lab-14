@@ -1,1 +1,102 @@
 /* TODO: Make it awesome */
+* {
+  margin: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #003049;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: colum;
+  justify-content: space-between;  
+}
+
+ul {
+  display: flex;
+  margin-left: 350px;
+  color: white;
+  list-style-type: upper-alpha;
+  margin-top: 50px;
+  list-style-type: disc;
+}
+
+a {
+  color: white;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+ol li {
+  display: flex;
+  margin-left: 450px;
+  margin-top: 10px; 
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(128, 17, 17);
+  color: white;
+}
+
+/* .card header {
+  justify-content: center;
+  background-color: rgb(128, 17, 17);
+  margin-top: 20px;
+  padding: 50px;
+  margin-bottom: 50px;
+
+} */
+
+.deck, col-1, .card header  {
+  justify-content: center;
+  background-color: rgb(128, 17, 17);
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(62, 85, 105);
+  margin-top: 350px;
+  height: 150px;
+  width: 50%;
+  margin: auto;
+}
+
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  /* justify-content: column; */
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #003049;
+  padding: 50px;
+  color: white;
+  margin-top: 250px;
+}
