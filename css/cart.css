@@ -1,0 +1,39 @@
+body{
+  background-color: white;
+}
+ header {
+  text-align: center;
+  background-color:rgba(1, 1, 66, 0.815);
+  height: 130px;
+ }
+ h1{
+  font-size: 40px;
+  color:white;
+  
+ }
+ nav{
+  float: right;
+  color: white;
+ }
+ .card {
+ background-color: rgb(99, 2, 2);
+ text-align: center;
+ }
+ .card header{
+  background-color: rgba(99, 2, 2, 0.726);
+  margin-top: 30px;
+ }
+
+ * {
+  color: white;
+  text-align: center;
+ }
+
+ footer {
+  background-color:rgba(1, 1, 66, 0.815);
+  height: 130px;
+  text-align: center;
+  font-size: 25px;
+  margin-top:30px ;
+}
+
